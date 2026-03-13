@@ -10,7 +10,7 @@ while True:
     print("6. Exit")
     print("*"*40)
 
-    choice=int(int(input("Enter Your Choice : ")))
+    choice=int(input("Enter Your Choice : "))
     print("*"*40)
     if choice==1:
         a=int(input("Enter Number : "))
@@ -22,7 +22,7 @@ while True:
     elif choice==3:
         a=int(input("Enter Number : "))
         b=int(input("Enter Number : "))
-        C=int(input("Enter Number : "))
+        c=int(input("Enter Number : "))
         udf.maxofthree(a,b,c)
     elif choice==4:
         a=int(input("Enter Number : "))
